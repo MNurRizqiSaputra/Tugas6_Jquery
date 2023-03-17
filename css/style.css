@@ -1,0 +1,68 @@
+body {
+    background-color: navy;
+    color: white;
+    margin: 50px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .gambar {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gambar:hover .overlay {
+    opacity: 1;
+  }
+  
+  /* untuk button index */
+.button {
+  background-color: #ffffff;
+  color: rgb(5, 5, 5);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #F0E68C;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
